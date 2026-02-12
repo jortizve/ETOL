@@ -1,0 +1,9 @@
+# Example ETOL formulas
+j.OA(!(MAQ | MAN) U (j<=100))
+j.OE(!C U (E & j=100))
+j.OE(!cash U j>= 20)
+j.OA(DB U j=10)
+j.OA(PQW -> !(MAW | MAN) U j>=15)
+j.OE(T U (cash & j=100))
+j.OE(T U cash)
+j.OE(T U j=100)

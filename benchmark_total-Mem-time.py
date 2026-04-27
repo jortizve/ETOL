@@ -116,6 +116,12 @@ def main():
         "j.OE(T U (cash & j=100))",
         "j.OE(T U cash)",
         "j.OE(T U j=100)",
+        "OE(T U cash)",
+        "j.OA(!(MAQ | MAN) U (E & j<=100))", 
+        "OE(T U j.(takeCash & j <= 20))",
+        "OA((PQW & x<= 15) U j.(takeCash & j<= 5))", 
+        "x.((!C & x <= 100) & j.OE(correctPwd U (takeCash & j <= 30)))", 
+        "OA(!takeCash U j.(E & j =10))"
     ]
 
     times=[]

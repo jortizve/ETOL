@@ -1,0 +1,41 @@
+{
+  "model": "models/atm.model",
+  "formula_source": "formulas/atm_case_study.etol",
+  "result": {
+    "initial_state": "I",
+    "results": [
+      {
+        "formula": "OE(!cash U cash)",
+        "res": "Result set: {np.str_('MAQ'), np.str_('MAN')}",
+        "initial_state": "Initial state I: False"
+      },
+      {
+        "formula": "j.OA(!(MAQ | MAN) U (E & j<=100))",
+        "res": "Result set: set()",
+        "initial_state": "Initial state I: False"
+      },
+      {
+        "formula": "OE(!cash U j.(cash & j<=20))",
+        "res": "Result set: set()",
+        "initial_state": "Initial state I: False"
+      },
+      {
+        "formula": "OA((PQW & x<=15) U j.(cash & j<=5))",
+        "res": "Result set: set()",
+        "initial_state": "Initial state I: False"
+      },
+      {
+        "formula": "j1.((!C & j1<=100) & j2.OE(correctPwd U (cash & j2<=30)))",
+        "res": "Result set: set()",
+        "initial_state": "Initial state I: False"
+      },
+      {
+        "formula": "OA(!cash U j.(E & j=10))",
+        "res": "Result set: set()",
+        "initial_state": "Initial state I: False"
+      }
+    ]
+  },
+  "runtime_seconds": 0.003584673000005978,
+  "message": "Model checking completed successfully."
+}

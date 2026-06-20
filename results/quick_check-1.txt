@@ -1,0 +1,25 @@
+Model: models/atm.model
+Formula source: formulas/quick_check.etol
+Time: 0.014450s
+Message: Model checking completed successfully.
+Result:
+{
+  "initial_state": "I",
+  "results": [
+    {
+      "formula": "OE((!cash & T) U cash)",
+      "res": "Result set: {np.str_('MAN'), np.str_('MAQ')}",
+      "initial_state": "Initial state I: False"
+    },
+    {
+      "formula": "j.OE(!cash U j>=20)",
+      "res": "Result set: set()",
+      "initial_state": "Initial state I: False"
+    },
+    {
+      "formula": "j.OA(!(MAQ | MAN) U (E & j<=100))",
+      "res": "Result set: set()",
+      "initial_state": "Initial state I: False"
+    }
+  ]
+}

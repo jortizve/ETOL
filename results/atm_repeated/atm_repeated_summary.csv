@@ -1,0 +1,16 @@
+id,formula_source,formula,states,clocks,edges,runs,completed,avg_s,std_s,min_s,max_s,verdict
+ATM-F1,atm_case_study.etol,OE((!cash & T) U cash),14,2,22,50,50,0.008296,0.000645,0.007327,0.010660,False/vulnerable
+ATM-F2,atm_case_study.etol,j.OA(!(MAQ | MAN) U (E & j<=100)),14,2,22,50,50,0.008825,0.000641,0.007941,0.011072,False/vulnerable
+ATM-F3,atm_case_study.etol,OE(!cash U j.(cash & j<=20)),14,2,22,50,50,0.009337,0.001464,0.007896,0.015185,False/vulnerable
+ATM-F4,atm_case_study.etol,OA((PQW & x<=15) U j.(cash & j<=5)),14,2,22,50,50,0.009807,0.001590,0.008352,0.015678,False/vulnerable
+ATM-F5,atm_case_study.etol,j1.((!C & j1<=100) & j2.OE(correctPwd U (cash & j2<=30))),14,2,22,50,50,0.013216,0.001714,0.011423,0.020708,False/vulnerable
+ATM-F6,atm_case_study.etol,OA(!cash U j.(E & j=10)),14,2,22,50,50,0.008420,0.001388,0.006990,0.013482,False/vulnerable
+ATM-F7,additional_formulas.etol,j.OA(!(MAQ | MAN) U (j <= 100)),14,2,22,50,50,0.009014,0.001046,0.008075,0.014717,False/vulnerable
+ATM-F8,additional_formulas.etol,j.OE(!C U (E & j = 100)),14,2,22,50,50,0.008003,0.000755,0.007109,0.011508,False/vulnerable
+ATM-F9,additional_formulas.etol,j.OE(!cash U (j >= 20)),14,2,22,50,50,0.008747,0.000891,0.007842,0.012563,False/vulnerable
+ATM-F10,additional_formulas.etol,j.OA(DB U (j = 10)),14,2,22,50,50,0.008017,0.001004,0.006986,0.012274,False/vulnerable
+ATM-F11,additional_formulas.etol,j.OA((PQW -> !(MAQ | MAN)) U (j >= 15)),14,2,22,50,50,0.009661,0.001195,0.007812,0.012921,False/vulnerable
+ATM-F12,additional_formulas.etol,j.OE(T U (cash & j = 100)),14,2,22,50,50,0.007939,0.000786,0.007102,0.011820,False/vulnerable
+ATM-F13,additional_formulas.etol,j.OE(T U cash),14,2,22,50,50,0.009134,0.001094,0.007929,0.014388,False/vulnerable
+ATM-F14,additional_formulas.etol,j.OE(T U (j = 100)),14,2,22,50,50,0.007907,0.000997,0.006610,0.012020,False/vulnerable
+ATM-F15,additional_formulas.etol,OE(T U cash),14,2,22,50,50,0.007985,0.000705,0.007104,0.011516,False/vulnerable

@@ -1,0 +1,35 @@
+\begin{table*}[t]
+\centering
+\small
+\begin{tabular}{l|r|r|r|r|r|r|r|l}
+\hline
+\cellHeader{Benchmark} &
+\cellHeader{$|S|$} &
+\cellHeader{$|X|$} &
+\cellHeader{$|E|$} &
+\cellHeader{Runs} &
+\cellHeader{Avg. (s)} &
+\cellHeader{Std. (s)} &
+\cellHeader{Completed} &
+\cellHeader{ETOL verdict} \\
+\hline
+GMR07-Fig.~1b & 3 & 2 & 3 & 3 & 0.001848 & 0.000086 & 3/3 & Valid/opaque \\
+\hline
+Web privacy & 9 & 3 & 11 & 3 & 0.003571 & 0.000063 & 3/3 & False/vulnerable \\
+\hline
+Coffee & 4 & 3 & 4 & 3 & 0.003269 & 0.000188 & 3/3 & False/vulnerable \\
+\hline
+Fischer-HSRV02 & 14 & 1 & 15 & 3 & 0.002236 & 0.000062 & 3/3 & False/vulnerable \\
+\hline
+VNN18-Fig.~5 & 2 & 2 & 1 & 3 & timeout & -- & 0/3 & Timeout/unknown \\
+\hline
+GMR07-Fig.~2a & 4 & 2 & 4 & 3 & timeout & -- & 0/3 & Timeout/unknown \\
+\hline
+GMR07-Fig.~2b & 4 & 2 & 4 & 3 & timeout & -- & 0/3 & Timeout/unknown \\
+\hline
+STAC category examples & -- & -- & -- & 3 & timeout & -- & 0/3 & Timeout/unknown \\
+\hline
+\end{tabular}
+\caption{Extended ETOL benchmark results. Each terminating benchmark was executed three times in this artifact-preparation environment; the benchmark runner can repeat the experiment with any number of repetitions. The verdict \emph{Valid/opaque} means that the translated ETOL formula is satisfied at the initial state, whereas \emph{False/vulnerable} means that it is not. Timeout cases are reported as unknown and are not interpreted as negative results.}
+\label{tab:extended-etol-benchmarks}
+\end{table*}

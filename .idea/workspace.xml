@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e4c94c66-c2d6-4ec4-8996-14fc823c1c0d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/ETOL.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/GMR07-fig1b-inst/formula_main.etol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/GMR07-fig1b-inst/formulas.etol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/GMR07-fig1b-inst/model.model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/GMR07-fig2a-inst/formula_main.etol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/GMR07-fig2a-inst/formulas.etol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/GMR07-fig2a-inst/model.model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/GMR07-fig2b-inst/formula_main.etol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/GMR07-fig2b-inst/formulas.etol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/GMR07-fig2b-inst/model.model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/VNN18-figure5-inst/formula_main.etol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/VNN18-figure5-inst/formulas.etol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/VNN18-figure5-inst/model.model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/Web-privacy-problem-inst/formula_main.etol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/Web-privacy-problem-inst/formulas.etol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/Web-privacy-problem-inst/model.model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/category11A_vulnerable/formula_main.etol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/category11A_vulnerable/formulas.etol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/category11A_vulnerable/model.model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/category11B_vulnerable/formula_main.etol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/category11B_vulnerable/formulas.etol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/category11B_vulnerable/model.model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/category12_not_vulnerable_exception/formula_main.etol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/category12_not_vulnerable_exception/formulas.etol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/category12_not_vulnerable_exception/model.model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/category12_vulnerable_conditional/formula_main.etol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/category12_vulnerable_conditional/formulas.etol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/category12_vulnerable_conditional/model.model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/category12_vulnerable_exception/formula_main.etol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/category12_vulnerable_exception/formulas.etol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/category12_vulnerable_exception/model.model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/category14_not_vulnerable/formula_main.etol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/category14_not_vulnerable/formulas.etol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/category14_not_vulnerable/model.model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/category1_not_vulnerable/formula_main.etol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/category1_not_vulnerable/formulas.etol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/category1_not_vulnerable/model.model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/category1_vulnerable/formula_main.etol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/category1_vulnerable/formulas.etol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/category1_vulnerable/model.model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/category3_not_vulnerable/formula_main.etol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/category3_not_vulnerable/formulas.etol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/category3_not_vulnerable/model.model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/category3_vulnerable/formula_main.etol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/category3_vulnerable/formulas.etol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/category3_vulnerable/model.model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/category4_not_vulnerable/formula_main.etol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/category4_not_vulnerable/formulas.etol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/category4_not_vulnerable/model.model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/category4_vulnerable/formula_main.etol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/category4_vulnerable/formulas.etol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/category4_vulnerable/model.model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/category5_not_vulnerable/formula_main.etol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/category5_not_vulnerable/formulas.etol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/category5_not_vulnerable/model.model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/coffee-security-inst/formula_main.etol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/coffee-security-inst/formulas.etol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/coffee-security-inst/model.model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/fischerHRSV02-2-security-inst/formula_main.etol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/fischerHRSV02-2-security-inst/formulas.etol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/timed_opacity_literature/fischerHRSV02-2-security-inst/model.model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv/benchmark_time_mem_zones.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/UPDATES.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/artifact_abstract.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/atm_repeated_experiments.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/atm_repeated_figures.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/atm_repeated_subsection.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/expected_outputs.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/experiment_map.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/extended_benchmark_table.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/extended_benchmarks.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/format_description.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/input_format.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formulas/additional_formulas.etol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formulas/atm_case_study.etol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formulas/quick_check.etol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/atm.model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/m_1000_0.model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/m_1200_0.model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/m_1400_0.model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/m_1800_0.model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/m_2000_0.model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/m_200_0.model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/m_400_0.model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/m_600_0.model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/m_800_0.model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper/ETOLModelChecking-AE.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plots/RSSPeak.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plots/atm_repeated/atm_avg_runtime.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plots/atm_repeated/atm_avg_runtime.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plots/atm_repeated/atm_min_max_runtime.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plots/atm_repeated/atm_min_max_runtime.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plots/atm_repeated/atm_runtime_boxplot.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plots/atm_repeated/atm_runtime_boxplot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plots/benchmark_peak_python.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plots/benchmark_peak_rss.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plots/benchmark_time.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plots/benchmark_total.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plots/benchmark_total_time.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/atm_case_study-1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/atm_case_study-1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/atm_case_study.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/atm_case_study.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/atm_case_study_expected.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/atm_case_study_expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/atm_repeated/atm_repeated_raw.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/atm_repeated/atm_repeated_summary.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/benchmarks/etol_literature_benchmark_summary.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/quick_check-1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/quick_check-1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/quick_check.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/quick_check.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/quick_check_expected.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/quick_check_expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/run_examples_expected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/run_atm_repeated.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/run_literature_benchmarks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ATM.model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GeneratorATM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/benchmark_total-CVS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/benchmark_total-Mem-time.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/benchmark_total-time.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/etol_model_checking.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/examples.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/execute-Random-ATM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/run_examples.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/100% TEST ACCURACY.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/CTLvsATLtesting.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing1/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing1/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing1/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing1/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing1/testingATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing10/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing10/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing10/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing10/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing11/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing11/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing11/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing11/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing12/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing12/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing12/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing12/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing13/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing13/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing13/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing13/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing14/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing14/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing14/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing14/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing15/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing15/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing15/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing15/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing2/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing2/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing2/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing2/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing3/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing3/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing3/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing3/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing4/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing4/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing4/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing4/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing5/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing5/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing5/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing5/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing5/testingATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing6/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing6/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing6/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing6/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing7/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing7/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing7/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing7/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing8/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing8/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing8/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing8/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing9/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing9/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing9/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Eventually with n agents/testing9/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/NatATLvsATL.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing1/compound test.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing1/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing1/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing1/model.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing1/modified_formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing1/modified_model.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing1/result.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing10/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing10/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing10/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing10/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing11/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing11/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing11/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing11/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing12/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing12/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing12/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing12/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing13/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing13/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing13/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing13/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing14/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing14/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing14/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing14/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing15/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing15/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing15/model.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing15/result.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing2/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing2/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing2/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing2/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing3/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing3/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing3/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing3/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing4/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing4/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing4/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing4/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing5/10States5Agents.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing5/11States5Agents.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing5/12States5Agents.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing5/4States2AgentsResultsK4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing5/5States2AgentsResultsK4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing5/5States5AgentsResultsK4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing5/6States4Agents.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing5/7States4Agents.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing5/8States5Agents.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing5/9States5Agents.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing5/Appunti tempi.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing5/FalseResultsOnlyK4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing5/RISULTATI3AGENTI5STATIK4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing5/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing5/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing5/model.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing5/model2Agents.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing5/model3Agents.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing5/modified_formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing5/modified_model.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing5/result.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing5/resultsK2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing5/testingATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing6/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing6/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing6/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing6/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing7/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing7/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing7/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing7/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing8/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing8/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing8/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing8/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing9/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing9/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing9/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Globally with n agents/testing9/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/CTLvsATLtesting.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/NON PUOI FARLO manca FORALL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/testing1/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/testing1/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/testing1/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/testing1/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/testing1/testingATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/testing10/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/testing10/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/testing10/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/testing11/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/testing11/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/testing11/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/testing11/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/testing12/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/testing12/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/testing12/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/testing13/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/testing13/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/testing13/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/testing14/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/testing14/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/testing14/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/testing2/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/testing2/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/testing2/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/testing2/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/testing3/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/testing3/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/testing3/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/testing3/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/testing4/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/testing4/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/testing4/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/testing4/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/testing5/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/testing5/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/testing5/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/testing5/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/testing5/testingATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/testing6/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/testing6/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/testing6/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/testing6/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/testing7/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/testing7/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/testing7/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/testing8/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/testing8/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/testing8/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/testing9/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/testing9/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists Until with n agents/testing9/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/CTLvsATLtesting.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing1/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing1/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing1/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing1/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing1/testingATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing10/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing10/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing10/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing10/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing11/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing11/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing11/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing11/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing12/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing12/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing12/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing13/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing13/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing13/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing13/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing14/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing14/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing14/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing14/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing2/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing2/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing2/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing2/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing3/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing3/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing3/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing3/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing4/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing4/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing4/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing4/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing5/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing5/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing5/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing5/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing5/testingATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing6/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing6/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing6/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing6/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing7/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing7/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing7/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing7/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing8/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing8/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing8/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing8/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing9/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing9/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Exists next with n agents/testing9/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/100% TEST ACCURACY.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/CTLvsATLtesting.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing1/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing1/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing1/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing1/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing10/100% TEST ACCURACY.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing10/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing10/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing10/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing10/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing11/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing11/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing11/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing11/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing12/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing12/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing12/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing12/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing13/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing13/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing13/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing13/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing14/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing14/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing14/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing14/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing15/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing15/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing15/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing15/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing2/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing2/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing2/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing2/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing3/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing3/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing3/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing3/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing4/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing4/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing4/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing4/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing5/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing5/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing5/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing5/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing6/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing6/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing6/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing6/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing7/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing7/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing7/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing7/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing8/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing8/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing8/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing8/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing9/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing9/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing9/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Eventually with n agents/testing9/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/natATLvsATL.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing1/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing1/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing1/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing1/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing10/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing10/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing10/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing10/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing11/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing11/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing11/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing11/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing12/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing12/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing12/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing12/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing13/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing13/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing13/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing13/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing14/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing14/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing14/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing14/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing15/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing15/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing15/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing15/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing2/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing2/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing2/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing2/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing3/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing3/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing3/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing3/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing4/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing4/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing4/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing4/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing5/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing5/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing5/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing5/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing6/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing6/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing6/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing6/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing7/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing7/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing7/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing7/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing8/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing8/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing8/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing8/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing9/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing9/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing9/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing9/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Globally with n agents/testing9/testingATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/CTLvsATLtesting.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing1/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing1/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing1/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing1/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing10/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing10/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing10/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing10/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing11/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing11/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing11/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing11/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing11/testATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing11/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing12/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing12/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing12/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing12/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing13/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing13/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing13/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing13/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing14/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing14/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing14/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing14/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing2/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing2/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing2/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing2/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing3/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing3/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing3/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing3/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing4/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing4/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing4/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing4/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing5/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing5/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing5/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing5/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing6/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing6/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing6/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing6/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing7/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing7/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing7/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing7/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing8/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing8/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing8/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing8/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing9/Risultato.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing9/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing9/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing9/testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/For All Next with n agents/testing9/testingATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Tool Analysis Testings/10States5Agents.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Tool Analysis Testings/11States5Agents.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Tool Analysis Testings/12States5Agents.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Tool Analysis Testings/4States2AgentsResultsK4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Tool Analysis Testings/5States2AgentsResultsK4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Tool Analysis Testings/5States5AgentsResultsK4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Tool Analysis Testings/6States4Agents.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Tool Analysis Testings/7States4Agents.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Tool Analysis Testings/8States5Agents.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Tool Analysis Testings/9States5Agents.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Tool Analysis Testings/Appunti prestazioni.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Tool Analysis Testings/Appunti tempi k=10.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Tool Analysis Testings/Appunti tempi.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Tool Analysis Testings/FalseResultsOnlyK4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Tool Analysis Testings/RISULTATI3AGENTI5STATIK4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Tool Analysis Testings/formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Tool Analysis Testings/formulaATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Tool Analysis Testings/model.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Tool Analysis Testings/model2Agents.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Tool Analysis Testings/model3Agents.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Tool Analysis Testings/modified_formula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Tool Analysis Testings/modified_model.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Tool Analysis Testings/result.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Tool Analysis Testings/resultsK2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/Test/NatATL/Tool Analysis Testings/testingATL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/ATL/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/ATL/parser.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/ATL/parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/ATL/parsetab.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/CTL/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/CTL/parser.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/CTL/parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/CTL/parsetab.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/CapATL/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/CapATL/parser.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/CapATL/parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/CapATL/parsetab.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/ETOL/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/ETOL/parser.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/ETOL/parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/ETOL/parsetab.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/LTL/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/LTL/ltl_to_ctl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/LTL/matrix_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/LTL/parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/NatATL/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/NatATL/parser.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/NatATL/parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/NatATL/parsetab.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/NatATL/stringParser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/NatSL/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/NatSL/parser.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/NatSL/parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/NatSL/parsetab.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/OATL/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/OATL/parser.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/OATL/parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/OATL/parsetab.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/OL/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/OL/parser.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/OL/parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/OL/parsetab.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/RABATL/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/RABATL/parser.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/RABATL/parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/RABATL/parsetab.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/RBATL/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/RBATL/parser.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/RBATL/parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/RBATL/parsetab.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/TCTL/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/TCTL/parser.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/TCTL/parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/TCTL/parsetab.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/TOL/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/TOL/parser.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/TOL/parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/logics/TOL/parsetab.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/abstract/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/ATL/ATL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/ATL/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/ATLF/ATLF.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/ATLF/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/ATLF/pre_ATLF.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/CTL/CTL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/CTL/ETOL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/CTL/TCTL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/CTL/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/CTL/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/CTL/tests/test_TCTL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/CapATL/CapATL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/CapATL/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/CapATL/classes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/CapATL/pre.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/LTL/LTL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/LTL/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/LTL/pruning.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/LTL/strategies.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/NatATL/Memoryless/NatATL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/NatATL/Memoryless/PrefilterATL/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/NatATL/Memoryless/PrefilterATL/natATLmodelChecking.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/NatATL/Memoryless/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/NatATL/Memoryless/pruning.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/NatATL/Memoryless/strategies.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/NatATL/NatATLtoATL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/NatATL/NatATLtoCTL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/NatATL/Recall/PrefilterATL/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/NatATL/Recall/PrefilterATL/natATLwithRecall.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/NatATL/Recall/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/NatATL/Recall/matrixParser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/NatATL/Recall/matrixUnwinding.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/NatATL/Recall/natATLwithRecall.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/NatATL/Recall/parser.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/NatATL/Recall/parsetab.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/NatATL/Recall/pruning.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/NatATL/Recall/regexParser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/NatATL/Recall/strategies.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/NatATL/Recall/stringParser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/NatATL/Recall/tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/NatATL/Recall/witnessParser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/NatATL/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/NatATLF/NatATL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/NatATLF/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/NatATLF/pruning.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/NatATLF/strategies.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/NatSL/Alternated/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/NatSL/Alternated/natATLwithRecall.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/NatSL/Alternated/natSL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/NatSL/Sequential/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/NatSL/Sequential/natATLwithRecall.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/NatSL/Sequential/natSL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/NatSL/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/OATL/OATL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/OATL/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/OL/OL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/OL/TOL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/OL/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/OL/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/OL/tests/test_TOL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/RABATL/RABATL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/RABATL/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/RBATL/RBATL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/RBATL/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/SolutionConcepts/Solution_Concepts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/SolutionConcepts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/explicit/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/model_checker_interface/implicit/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/models/CGS/CGS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/models/CGS/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/models/capCGS/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/models/capCGS/capCGS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/models/costCGS/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/models/costCGS/costCGS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/models/timedCGS/DBM/Bound.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/models/timedCGS/DBM/DBM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/models/timedCGS/DBM/DBMAdapter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/models/timedCGS/ZoneGraph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/models/timedCGS/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/models/timedCGS/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/models/timedCGS/tests/test_DBM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/models/timedCGS/tests/test_DBMAdapter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/models/timedCGS/tests/test_ZoneGraph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/models/timedCGS/timedCGS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/utils/experiments/ATL/experiments.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/utils/experiments/RABATL/experiments.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/utils/generators/CGS_generator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/utils/generators/RABCGS_generator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/utils/generators/RBCGS_generator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/utils/generators/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/utils/generators/tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/xml_data/cond.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/xml_data/convertion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/xml_data/initialisation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/xml_data/set_operation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/xml_data/test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/xml_data/test_output_Vitamin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/xml_data/to_cgs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vitamin_model_checker/xml_data/writting.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="3FPGXPiqLXaohXUPWMTIbfp1EjY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e4c94c66-c2d6-4ec4-8996-14fc823c1c0d" name="Changes" comment="" />
+      <created>1781969332693</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1781969332693</updated>
+    </task>
+    <servers />
+  </component>
+</project>

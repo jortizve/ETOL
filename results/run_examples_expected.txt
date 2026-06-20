@@ -1,0 +1,36 @@
+======================================================================
+Formula: OE(!cash U cash)
+Time(s): 0.002095
+res: Result set: {np.str_('MAQ'), np.str_('MAN')}
+initial_state: Initial state I: False
+Total accumulated time 0.002095
+======================================================================
+Formula: j.OA(!(MAQ | MAN) U (E & j<=100))
+Time(s): 0.001269
+res: Result set: set()
+initial_state: Initial state I: False
+Total accumulated time 0.003363
+======================================================================
+Formula: OE(!cash U j.(cash & j<=20))
+Time(s): 0.001145
+res: Result set: set()
+initial_state: Initial state I: False
+Total accumulated time 0.004508
+======================================================================
+Formula: OA((PQW & x<=15) U j.(cash & j<=5))
+Time(s): 0.001209
+res: Result set: set()
+initial_state: Initial state I: False
+Total accumulated time 0.005718
+======================================================================
+Formula: j1.((!C & j1<=100) & j2.OE(correctPwd U (cash & j2<=30)))
+Time(s): 0.001489
+res: Result set: set()
+initial_state: Initial state I: False
+Total accumulated time 0.007206
+======================================================================
+Formula: OA(!cash U j.(E & j=10))
+Time(s): 0.001285
+res: Result set: set()
+initial_state: Initial state I: False
+Total accumulated time 0.008491

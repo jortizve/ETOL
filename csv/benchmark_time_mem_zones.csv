@@ -1,0 +1,2 @@
+size,trial,time_s,peak_rss_mib,peak_py_mib,zones,model_path
+200,0,4.970092269999952,314.62890625,1.793313980102539,-1,/mnt/data/etol_work/ETOL-master/models/m_200_0.model

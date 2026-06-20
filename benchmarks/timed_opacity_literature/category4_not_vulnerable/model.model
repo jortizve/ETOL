@@ -1,0 +1,54 @@
+Transition
+0 1 0 0 0 0 0 0
+0 0 1 0 0 0 0 0
+0 0 0 1 1 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 1 1 0
+0 0 0 0 1 0 1 0
+0 0 0 0 0 0 0 1
+0 0 0 0 0 0 0 0
+
+Name_State
+l1 l2 l3 final1 doProcess check_and_sleep l9 final2
+
+Initial_State
+l1
+
+Atomic_propositions
+secret final
+
+Labelling
+0 0
+0 0
+0 0
+0 0
+1 0
+0 0
+0 0
+0 1
+
+Number_of_agents
+1
+
+Clocks
+cl_1 y
+
+Clock_constraints
+0 cl_1<=1,cl_1=0 0 0 0 0 0 0
+0 0 cl_1<=1,cl_1=0 0 0 0 0 0
+0 0 0 cl_1<=1,cl_1=0 cl_1<=1,cl_1=0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 cl_1<=1500000,cl_1>=1500000,cl_1=0 0 cl_1<=1500000,cl_1>=1500000,cl_1=0 0
+0 0 0 0 0 0 0 cl_1<=1
+0 0 0 0 0 0 0 0
+
+Invariants
+cl_1<=1 0
+cl_1<=1 0
+cl_1<=1 0
+0 0
+0 0
+0 0
+cl_1<=1 0
+0 0

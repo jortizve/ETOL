@@ -1,0 +1,58 @@
+Transition
+0 1 0 0 1 0 0 0 0
+0 0 1 0 0 1 0 0 0
+0 0 0 1 0 0 1 0 0
+0 0 0 0 0 0 0 0 1
+0 0 0 0 0 1 0 0 0
+0 0 0 0 0 0 1 0 0
+0 0 0 0 0 0 0 1 0
+0 0 0 0 0 0 0 0 1
+0 0 0 0 0 0 0 0 0
+
+Name_State
+q0 q1 q2 q3 q4 q5 q6 q7 finished
+
+Initial_State
+q0
+
+Atomic_propositions
+secret final
+
+Labelling
+0 0
+0 0
+0 0
+0 0
+1 0
+1 0
+1 0
+0 0
+0 1
+
+Number_of_agents
+1
+
+Clocks
+x_1 y_1 y
+
+Clock_constraints
+0 x_1=0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 y_1=0 0 0 0 0 0
+0 0 0 0 0 0 0 0 y_1>=3,y_1<=0,y_1>=0
+0 0 0 0 0 x_1=0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 y_1=0 0
+0 0 0 0 0 0 0 0 y_1>=1,y_1<=0,y_1>=0
+0 0 0 0 0 0 0 0 0
+
+Invariants
+0 0
+0 0
+0 0
+y_1<=5 0
+0 0
+0 0
+0 0
+y_1<=4 0
+0 0

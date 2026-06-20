@@ -1,0 +1,38 @@
+Transition
+0 1 0 0
+0 1 1 0
+0 0 0 1
+0 0 0 0
+
+Name_State
+idle add_sugar preparing_coffee cdone
+
+Initial_State
+idle
+
+Atomic_propositions
+secret final
+
+Labelling
+0 0
+1 0
+0 0
+0 1
+
+Number_of_agents
+1
+
+Clocks
+x_1 y_1 y
+
+Clock_constraints
+0 x_1=0,y_1=0 0 0
+0 x_1=0 0 0
+0 0 0 y_1<=8,y_1>=8,x_1=0
+0 0 0 0
+
+Invariants
+0 0
+y_1<=5 0
+y_1<=8 0
+0 0

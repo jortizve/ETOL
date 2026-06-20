@@ -1,0 +1,6 @@
+OE((!cash & T) U cash)
+j.OA(!(MAQ | MAN) U (E & j<=100))
+OE(!cash U j.(cash & j<=20))
+OA((PQW & x<=15) U j.(cash & j<=5))
+j1.((!C & j1<=100) & j2.OE(correctPwd U (cash & j2<=30)))
+OA(!cash U j.(E & j=10))

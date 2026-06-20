@@ -1,0 +1,9 @@
+
+\subsection{Repeated Runs on the ATM Case Study}
+\label{subsec:atm-repeated-runs}
+
+To reduce the impact of measurement noise, we repeated each ATM experiment 50 times and report the average running time, standard deviation, minimum, and maximum execution time. The ATM model contains 14 locations, 2 clocks, and 22 transitions. We evaluated all formulas from the ATM case study and the additional ETOL formula file. The measurements were obtained by running the ETOL model-checking procedure on each formula independently and recording the wall-clock time of the checking call.
+
+The results are summarized in \cref{tab:atm-repeated-experiments}. All runs terminated successfully. The average running times are below 0.014 seconds for all formulas, and the standard deviations remain small, indicating stable executions on this benchmark. The formulas are reported as \emph{False/vulnerable} when the translated ETOL property is not satisfied at the initial state of the ATM model. Hence, the table reports both the performance of the prototype and the logical verdict returned by ETOL.
+
+The runtime distribution is also shown in \cref{fig:atm-avg-runtime,fig:atm-runtime-boxplot}. The first plot reports the average runtime with standard deviation, while the second plot shows the distribution over all repeated executions. These measurements make the experimental protocol explicit and address measurement noise by using repeated runs rather than a single execution.

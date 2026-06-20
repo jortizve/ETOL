@@ -1,0 +1,8 @@
+Model: models/atm.model
+Formula source: formulas/atm_case_study.etol
+Time: 0.000000s
+Message: Syntax error at token=LPAREN, value=(
+Result:
+{
+  "status": "ERROR"
+}

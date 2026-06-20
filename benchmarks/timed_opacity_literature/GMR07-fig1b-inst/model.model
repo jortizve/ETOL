@@ -1,0 +1,34 @@
+Transition
+0 1 1
+0 0 0
+0 1 0
+
+Name_State
+s0 s1 s2
+
+Initial_State
+s0
+
+Atomic_propositions
+secret final
+
+Labelling
+0 0
+0 1
+1 0
+
+Number_of_agents
+1
+
+Clocks
+x_1 y
+
+Clock_constraints
+0 0 0
+0 0 0
+0 0 0
+
+Invariants
+0 0
+0 0
+0 0

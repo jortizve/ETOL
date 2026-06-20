@@ -1,0 +1,3 @@
+OE((!cash & T) U cash)
+j.OE(!cash U j>=20)
+j.OA(!(MAQ | MAN) U (E & j<=100))

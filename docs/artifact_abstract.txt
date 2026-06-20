@@ -1,0 +1,7 @@
+This artifact accompanies the paper “Execution-Time Opacity Logic: A Logic for Ensuring ET-Opacity in Timed Systems”. It contains the implementation of the ETOL model checker, the benchmark timed automata models and ETOL formulas used in the paper, scripts to reproduce the experimental results, and expected outputs.
+
+The artifact supports reproduction of the ATM case study and of a representative subset of the scalability experiments reported in the paper. It also provides a lightweight quick-check script intended for Phase I of artifact evaluation.
+
+This archive is a source-code artifact. It does not contain a pre-built Docker image. The documentation was updated so that the README, the abstract, and the experiment map match the actual artifact contents.
+
+The artifact includes the submitted paper in PDF format, a README file describing how to run the artifact and how to map the generated outputs to the results in the paper, a LICENSE file, the full source code, benchmark inputs, execution scripts, and reference outputs that allow reviewers to compare their run with the expected one.
